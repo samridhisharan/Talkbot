@@ -1,6 +1,0 @@
-import openai
-
-openai.api_key = "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"
-
-completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": "write essay on india "}])
-print(completion.choices[0].message.content)
